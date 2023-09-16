@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>Activity 5 - CSS Basics</title>
+
+  <!-- linked style css to html -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- created internal CSS, styles all <a> to have background-color -->
+  <style>
+    a {
+      background-color: whitesmoke;
+    }
+    /* used id selector #title for <h1> font-family */
+    #title {
+      font-family: Cambria, Arial;
+    }
+  </style>
+</head>
+<body>
+<!-- created Header, Main and Footer -->
+  <header>
+    <h1 id="title">MY Most Visited Websites</h1>
+  </header>
+
+  <main>
+    <ul>
+      <!-- created multiple anchor tags -->
+      <!-- applied inline CSS in #youtube -->
+      <li><a id="youtube" style="color: black" href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+      <li><a id="facebook" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+      <li><a id="instagram" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+      <li><a id="twitter" href="https://twitter.com/" target="_blank">twitter</a></li>
+      <li><a id="tiktok" href="https://www.tiktok.com/" target="_blank">Tiktok</a></li>
+      <li><a  class="button" href="https://www.netflix.com/" target="_blank">Netflix</a></li>
+    </ul>
+  </main>
+
+  <footer>
+    Thank you for visiting the page.
+  </footer>
+</body>
+</html>
